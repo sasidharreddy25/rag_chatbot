@@ -119,7 +119,7 @@ Based on the above context, answer the user query.
     
     async def _find_answer(self, query, pdf_path):
         try:
-            docs = self.docsearch.similarity_search(query, filter={"filename":pdf_path})
+            docs = self.docsearch.similarity_search(query, k=20, filter={"filename":pdf_path})
             context=''
             for i in docs:
                 doc_name=i.metadata['filename']
