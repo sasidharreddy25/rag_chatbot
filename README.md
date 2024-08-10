@@ -11,11 +11,11 @@ Retrival: Employing a combination of dense retrievers and cross-encoder-based re
 
 ### Code Modular
 Following the S.O.L.I.D Principles more efficiently:
-S- Single Responsibility Principle
-O- Open/Closed Principle
-L- Liskov Substitution Principle
-I- Interface Segregation Principle
-D- Dependency Inversion Principle
+- **S** - Single Responsibility Principle
+- **O** - Open/Closed Principle
+- **L** - Liskov Substitution Principle
+- **I** - Interface Segregation Principle
+- **D** - Dependency Inversion Principle
 
 Doing better error handling and logging in the code.
 Doing better documentation of the code.
