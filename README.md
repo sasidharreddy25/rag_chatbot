@@ -8,6 +8,7 @@ Then open testing.ipynb and install all requirements. Run each cell sequentially
 - **Prompt Engineering**: Crafting precise prompts and employing techniques such as Chain-of-Thought (CoT) and ReACT, among others.
 - **Chunking**: Utilizing advanced chunking strategies like semantic chunking, agentic chunking, and markdown chunking etc.
 - **Retrival**: Employing a combination of dense retrievers and cross-encoder-based retrievers for re-ranking, such as ColBERT and similar methods.
+- **Other Techniques**: Utilize additional techniques such as multi-hop querying for handling multiple queries within a single query, and use GraphRAG to identify better relationships in the document.
 
 ### Code Modular
 Following the S.O.L.I.D Principles more efficiently:
@@ -19,4 +20,4 @@ Following the S.O.L.I.D Principles more efficiently:
 
 Doing better error handling and logging in the code.
 
-Doing better documentation of the code.
+Doing better documentation of the code. Use a separate class to initialize all keys.
